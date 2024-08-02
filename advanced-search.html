@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+
+    <link rel="stylesheet" href="./css/default-style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/advanced-main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav class="advanced-nav">
+            <img src="./imgs/googlelogo_clr_74x24px.svg" alt="Google">
+            <a href="index.html">Google Search</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Advanced Search</h1>
+
+        <form action="https://google.com/search" name="f">
+            <div>
+                <span>Find pages with… </span>
+            </div>
+            <div class="advanced-inputs">
+                <label for="all-these-words">all these words:</label>
+                <input id="all-these-words" type="text" name="as_q">
+            </div>
+            <div class="advanced-inputs">
+                <label for="exact-word">this exact word or phrase:</label>
+                <input id="exact-word" type="text" name="as_epq">
+            </div>
+            <div class="advanced-inputs">
+                <label for="any-these-words">any of these words:</label>
+                <input id="any-these-words" type="text" name="as_oq">
+            </div>
+            <div class="advanced-inputs">
+                <label for="none-these-words">none of these words:</label>
+                <input id="none-these-words" type="text" name="as_eq">
+            </div>
+            <div class="advanced-submit">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <span>Google Advanced Search Page</span>
+    </footer>
+</body>
+
+</html>

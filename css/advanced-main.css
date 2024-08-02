@@ -1,0 +1,55 @@
+h1 {
+    font-size: 20px;
+    color: #f28b82;
+    border-bottom: 1px solid #c9c5c5;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    width: 600px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.advanced-submit {
+    align-items: right;
+    text-align: right;
+}
+
+.advanced-submit input {
+    width: 150px;
+    height: 3vh;
+
+    background-color: #8ab4f8;
+    color: #fff;
+    border: 1px solid #3079ed;
+}
+
+.advanced-submit input:hover {
+    background-color: #b8d0f7;
+    transition: 0.25ms;
+}
+
+.advanced-inputs {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.advanced-inputs input {
+    width: 65%;
+    height: 3vh;
+}
+
+main form div {
+    padding: 10px;
+}
+
+main form div span {
+    font-size: 16px;
+    font-weight: bold;
+}

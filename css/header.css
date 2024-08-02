@@ -1,0 +1,22 @@
+header {
+    text-align: right;
+}
+
+header nav {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.advanced-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advanced-nav img {
+    margin-left: 50px;
+}
+
+header nav a {
+    padding: 10px;
+
+}
