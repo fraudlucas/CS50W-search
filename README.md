@@ -1,7 +1,6 @@
 # CS50W-search
 Project 0 - Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 From course [CS50’s Web Programming with Python and JavaScript](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript).
-___
 
 ## Specification
 
@@ -23,4 +22,3 @@ Your website must meet the following requirements:
 * Add an "I'm Feeling Lucky" button to the main Google Search page. Consistent with Google's own behavior, clicking this link should take users directly to the first Google search *result for the query, bypassing the normal results page.
     * You may encounter a redirect notice when using the "I'm Feeling Lucky" button. Not to worry! This is an expected consequence of a security feature implemented by Google.
 * The CSS you write should resemble Google's own aesthetics.
-___
