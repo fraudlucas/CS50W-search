@@ -1,6 +1,51 @@
 # CS50W-search
-Project 0 - Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
-From course [CS50’s Web Programming with Python and JavaScript](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript).
+
+A front-end implementation of Google Search, Google Image Search, and Google Advanced Search pages.
+
+**Project 0** from [CS50's Web Programming with Python and JavaScript](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript)
+
+> **Note**: This project was created for educational purposes as part of CS50W coursework. It is a learning exercise in HTML, CSS, and web design fundamentals.
+
+## What This Project Is
+
+This repository contains a static website with three pages that replicate the user interface of Google's search services:
+- **Google Search**: A main search page with a centered search bar and search buttons
+- **Google Image Search**: A dedicated page for image searches
+- **Google Advanced Search**: A page with advanced search options for refined queries
+
+The project demonstrates front-end web development skills including HTML structure, CSS styling, form handling, and responsive design principles consistent with Google's design aesthetics.
+
+## How to Run
+
+### Prerequisites
+- Any modern web browser (Chrome, Firefox, Safari, Edge, etc.)
+- No server or backend required - this is a static frontend
+
+### Steps
+
+1. **Clone or download the repository**
+   ```bash
+   git clone <repository-url>
+   cd CS50W-search
+   ```
+
+2. **Open the main page**
+   - Navigate to the project folder
+   - Double-click `index.html` to open it in your default browser, OR
+   - Right-click `index.html` → Open with → Select your preferred browser
+
+3. **Navigate the site**
+   - From the main Google Search page (`index.html`), you can access:
+     - Google Image Search by clicking the link in the upper-right
+     - Google Advanced Search by clicking the link in the upper-right
+   - Each page links back to Google Search for easy navigation
+
+4. **Test the functionality**
+   - Enter search queries and click "Google Search" to perform actual Google searches
+   - Use "I'm Feeling Lucky" to go directly to the first result
+   - Use the advanced search filters to refine your queries
+
+## Specification
 
 ## Specification
 
